@@ -29,7 +29,7 @@
    `npm install`
 
 3. Jalankan Proyek  
-   `npm start`  
+   `npm run dev`  
    Aplikasi akan berjalan di [http://localhost:3000](http://localhost:3000).
 
 ### Menjalankan dengan Docker
