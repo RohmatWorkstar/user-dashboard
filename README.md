@@ -30,7 +30,7 @@
 
 3. Jalankan Proyek  
    `npm run dev`  
-   Aplikasi akan berjalan di [http://localhost:3000](http://localhost:3000).
+   Aplikasi akan berjalan di [http://localhost:5173](tergantung server local Computer).
 
 ### Menjalankan dengan Docker
 1. Build Docker Image  
