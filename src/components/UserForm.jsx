@@ -48,10 +48,9 @@ const UserForm = () => {
             errors.company = "Nama Perusahaan wajib di isi";
         }
 
-        // Jika ada error, set state error
         if (Object.keys(errors).length > 0) {
             setFormErrors(errors);
-            return; // Jangan lanjutkan proses submit
+            return; 
         }
         if (user) {
             dispatch(updateUser({ id: user.id, ...data }));
