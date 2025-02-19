@@ -12,7 +12,7 @@ const UserRow = ({ user, onDelete }) => {
                 <Link to={`/edit/${user.id}`} className="text-yellow-500 hover:text-yellow-800 font-bold">
                     Edit
                 </Link>
-                <button onClick={() => onDelete(user.id)} className="text-red-600 hover:text-red-800 font-bold">
+                <button onClick={() => onDelete(user.id)} className="text-red-600 hover:text-red-800 font-bold cursor-pointer">
                     Hapus
                 </button>
             </td>
